@@ -1,39 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Arimo&family=Caprasimo&family=Creepster&family=Montserrat:wght@700&family=Poppins:wght@400;600&family=Rancho&family=Tilt+Warp&display=swap");
-div {
-  width: 100vw;
-  height: 50vh;
-  /* color: red; */
-  /* 0 - 255  */
-  /* color: rgb(255, 100, 255); */
-  /* color: rgba(248, 117, 117, 0.801); */
-  /* 0 9 a - f */
-  /* color: #8e8419; */
-  font-size: 20px;
-  letter-spacing: 3px;
-  line-height: 40px;
-  word-spacing: 20px;
-  color: #3818f0;
-  /* uppercase, lowercase, capitalize */
-  text-transform: capitalize;
-  /* left, right, center, justify */
-  text-align: justify;
-  /* normal, bold, value(interger, 100....200..,.) */
-  font-weight: bold;
-  /* background-color: #74d34b; */
-  /* background-image: url("https://imgd.aeplcdn.com/1056x594/n/cw/ec/44686/activa-6g-right-front-three-quarter.jpeg?q=75"); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  background-attachment: fixed;
-  /* font-family: "Alkatra", cursive; */
-  font-family: "Arimo", sans-serif;
 
-  /* font-family: "Caprasimo", cursive;
-  font-family: "Creepster", cursive;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Rancho", cursive;
-  font-family: "Tilt Warp", cursive; */
+*{
+  margin: 0;
 }
 
 #search {
@@ -101,3 +69,79 @@ h2 {
 }
 
 /* inline style > id > class > tag */
+
+.root{
+  width: 100vw;
+ height: 50px;
+ background-color: #f5f7f6;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 5px;
+}
+.left_side{
+  display: flex;
+gap: 10px;
+  align-items: center;
+}
+.search{
+  width: 15vw;
+  height: 30px;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+  gap: 2px;
+}
+.search_box{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.center_icon{
+  width: 15px;
+  height: 15px;
+}
+.mid_part{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  /* gap: 10px; */
+  justify-content: space-between;
+}
+
+.end_part{
+  display: flex;
+  margin-right: 10px;
+  gap: 10px;
+  align-items: center;
+}
+
+.avatar{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.under{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sample_box{
+  width: 200px;
+  height: 300px;
+  background-image: url("./images/feed.webp");
+  background-position: center;
+  position: relative;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+
+.change{
+  position: absolute;
+  right: 0;
+}
