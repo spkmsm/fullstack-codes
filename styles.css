@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Arimo&family=Caprasimo&family=Creepster&family=Montserrat:wght@700&family=Poppins:wght@400;600&family=Rancho&family=Tilt+Warp&display=swap");
 
-*{
+* {
   margin: 0;
 }
 
@@ -70,21 +70,21 @@ h2 {
 
 /* inline style > id > class > tag */
 
-.root{
+.root {
   width: 100vw;
- height: 50px;
- background-color: #f5f7f6;
- display: flex;
- justify-content: space-between;
- align-items: center;
- padding: 5px;
-}
-.left_side{
+  height: 50px;
+  background-color: #f5f7f6;
   display: flex;
-gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.left_side {
+  display: flex;
+  gap: 10px;
   align-items: center;
 }
-.search{
+.search {
   width: 15vw;
   height: 30px;
   display: flex;
@@ -93,16 +93,16 @@ gap: 10px;
   align-items: center;
   gap: 2px;
 }
-.search_box{
+.search_box {
   border: none;
   outline: none;
   background-color: transparent;
 }
-.center_icon{
+.center_icon {
   width: 15px;
   height: 15px;
 }
-.mid_part{
+.mid_part {
   width: 300px;
   display: flex;
   align-items: center;
@@ -110,27 +110,27 @@ gap: 10px;
   justify-content: space-between;
 }
 
-.end_part{
+.end_part {
   display: flex;
   margin-right: 10px;
   gap: 10px;
   align-items: center;
 }
 
-.avatar{
+.avatar {
   width: 30px;
   height: 30px;
   border-radius: 50px;
 }
 
-.under{
+.under {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.sample_box{
+.sample_box {
   width: 200px;
   height: 300px;
   background-image: url("./images/feed.webp");
@@ -140,8 +140,151 @@ gap: 10px;
   margin: 10px;
 }
 
-
-.change{
+.change {
   position: absolute;
   right: 0;
+}
+
+/* text */
+/* color , text-transform, text-align */
+
+/* font */
+/* font-size, font-style, font-weight ,font-family */
+
+/* background */
+/* background-color, ....image, ....size, ....attachment, .....position, ....gradien */
+
+/* margin */
+/* t, r, b, l  */
+/* tb , lr */
+
+/* padding */
+/* t, r, b, l  */
+/* tb , lr */
+
+/* position */
+/* relative,absolute,fixed,static,*/
+
+/* border */
+/*  border-color, ...style, ....radius, ....with */
+
+/* outline */
+/*  outline-color, ...style, ....radius, ....with */
+
+/* position related styles */
+
+/* .parent {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 100px;
+  position: relative;
+}
+
+.box1,
+.box2 {
+  width: 100px;
+  height: 100px;
+}
+
+.box1 {
+  background-color: green;
+  position: absolute;
+  bottom: 0;
+  z-index: 30;
+}
+
+.box2 {
+  background-color: yellow;
+  position: absolute;
+  bottom: 0;
+  z-index: 20;
+} */
+
+.home {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+video {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 10px;
+  top: 0;
+}
+
+.hero_desc {
+  width: 50vw;
+  color: red;
+  line-height: 30px;
+  word-spacing: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  background: linear-gradient(to bottom right, #d83579, #f0b547);
+  z-index: 100;
+}
+
+.light_image {
+  width: 100vw;
+  min-height: 100vh;
+  padding-top: 100px;
+  background: linear-gradient(to right, rgba(248, 244, 244, 0.822), #ffffff),
+    url("https://images.pexels.com/photos/1171170/pexels-photo-1171170.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#boxmodal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search_boxd {
+  background-color: #f5f7f6;
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+#search_box {
+  outline: transparent;
+  border: transparent;
+  width: inherit;
+  height: 30px;
+  background-color: transparent;
+}
+
+.pat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
