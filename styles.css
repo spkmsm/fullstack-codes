@@ -278,9 +278,9 @@ video {
 #search_box {
   outline: transparent;
   border: transparent;
-  width: inherit;
+  /* width: inherit; */
   height: 30px;
-  background-color: transparent;
+  background-color: green;
 }
 
 .pat {
