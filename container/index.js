@@ -84,23 +84,73 @@
 // onMouseEnter
 // .......
 
-const change = () => {
-  let result = (document.getElementById("cake").style.color = "green");
-};
+// const change = () => {
+//   let result = (document.getElementById("cake").style.color = "green");
+// };
 
 // modify;
 
-const modify = () => {
-  let result = (document.getElementById("cake").style.color = "red");
-};
+// const modify = () => {
+//   let result = (document.getElementById("cake").style.color = "red");
+// };
 
-const check = () => {
-  let value = document.getElementById("username").value;
-  console.log(typeof Number(value));
-  if (typeof Number(value) === "number") {
-  } else {
-    alert("something went wrong");
-  }
-};
-let a = "abcdefghijklmnopqrstuvwxyz";
-console.log((document.getElementById("cake").innerHTML = a.length));
+// const check = () => {
+//   let value = document.getElementById("username").value;
+//   console.log(typeof Number(value));
+//   if (typeof Number(value) === "number") {
+//   } else {
+//     alert("something went wrong");
+//   }
+// };
+// let a = "abcdefghijklmnopqrstuvwxyz";
+// console.log((document.getElementById("cake").innerHTML = a.length));
+
+// History
+
+// length , previous, next
+// 4 ,  back() ,forward()
+// document.getElementById("length").innerHTML = history.length;
+
+// const prev = () => {
+//   history.back();
+// };
+
+// const next = () => {
+//   history.forward();
+// };
+
+// const verify = () => {
+//   const value = document.getElementById("tel").value;
+//   let change = parseInt(value);
+
+//   console.log(change);
+//   // console.log(parseInt(value));
+
+//   if (!(change === NaN)) {
+//     alert("true");
+//   } else {
+//     alert("false");
+//   }
+// };
+
+// document.getElementById();
+// document.querySelectorAll();
+
+// pattern , flag
+// /fvhjgfh/  , g,i,m
+
+// [0-9] [a-z] [A-Z] \d \w \s
+
+// console.log("Dhsfjhsdfh74623876".match(/dh/gi));
+// console.log("Dhsfjhsdfh74623876".match(/[0-9]/gi));
+// console.log("Dhsfjhsdfh74623876".match(/[a-z]/gi));
+
+// console.log("Dhsfjhsdfh74623876".match(/\d/gi));
+// console.log("Dhsfjhsdfh74623876".match(/\w/gi));
+// const value = prompt("enter something");
+// console.log(value.match(/[a-z]/gi));
+// if (value.match(/[a-z]/gi) !== null) {
+//   alert("something went wrong");
+// } else {
+//   alert("saved");
+// }
