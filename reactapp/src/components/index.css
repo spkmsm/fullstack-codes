@@ -1,0 +1,7 @@
+.alter {
+  background-color: green;
+}
+
+.alter:hover {
+  background-color: red !important;
+}
