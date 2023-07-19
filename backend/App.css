@@ -1,0 +1,74 @@
+*{
+  scroll-behavior: smooth;
+}
+
+h1{
+  color: black;
+}
+.box{
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* 
+
+modal
+--------------------------------
+<Modal open={show} title="login form" footer={false} onCancel={()=>{
+      setShow(false)
+     }}>
+     <h1 onClick={()=>{
+      setShow(false);
+     }}>close</h1>
+     </Modal>
+
+--------------------------------
+drawer
+--------------------------------
+<Drawer open={show} placement='bottom' title="register form" onClose={()=>{
+  setShow(false);
+  notification.error({message:"Drawer opned"})
+}}>
+</Drawer>
+     
+ --------------------------------
+form
+--------------------------------
+
+  <Form layout='vertical' onFinish={handleFinish} form={form}>
+          <Form.Item
+            label="Email"
+            rules={[
+              {
+                required: true,
+                message: "Please Enter Your Email"
+              }, {
+                type: "email",
+                message: "please enter valid email"
+              }
+            ]}
+            name="email"
+          >
+            <Input placeholder='Enter email' />
+          </Form.Item>
+          <Form.Item
+            label="password"
+            name="password"
+            rules={[
+              {
+                required: true,
+              }
+            ]}
+          >
+            <Input.Password placeholder='Enter password' />
+          </Form.Item>
+          <Button htmlType="submit">save</Button>
+        </Form>    
+*/
